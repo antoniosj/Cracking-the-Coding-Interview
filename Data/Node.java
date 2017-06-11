@@ -14,8 +14,7 @@ package io.github.antoniosj.linkedlists;
 			while (n.next != null) {
 				n = n.next;
 			}
-			n.next = end;
-			//System.out.println(n.next.data);
+			n.next = end;			
 		}
 		
 		public Node deleteNode(Node head, int d){
@@ -47,7 +46,6 @@ package io.github.antoniosj.linkedlists;
 			n.appendToTail(2);
 			n.appendToTail(3);
 			n.myLinkedList(n);
-			//System.out.println(n.data);
 		}
 	}
 	
